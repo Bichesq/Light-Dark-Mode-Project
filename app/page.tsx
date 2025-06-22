@@ -1,6 +1,5 @@
 // app/page.tsx (Example component)
 import NavBar from "./components/Navbar";
-import ThemeToggle from "./components/ThemeToggle"; // Import your toggle button
 
 export default function Home() {
   return (
