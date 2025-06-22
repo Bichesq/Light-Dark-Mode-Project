@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Light/Dark Mode Next.js Project
+
+This project is a simple demonstration of a Next.js application with a fully functional light/dark mode toggle. It uses Tailwind CSS v3 for styling and supports theme switching at runtime, with the user's preference saved in localStorage. The project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Features
+
+- Light and dark mode toggle with smooth transitions
+- Theme preference is saved and restored automatically
+- Built with Next.js App Router and React Server Components
+- Uses Tailwind CSS v3 for utility-first styling
+- Responsive and modern UI
 
 ## Getting Started
 
@@ -18,7 +28,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+- `app/components/ThemeProvider.tsx`: Provides theme context and handles theme switching logic
+- `app/components/ThemeToggle.tsx`: The button to toggle between light and dark mode
+- `app/globals.css`: Global styles and Tailwind CSS imports
+- `tailwind.config.ts`: Tailwind CSS configuration (dark mode enabled via class)
 
 ## Learn More
 
