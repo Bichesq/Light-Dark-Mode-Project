@@ -1,6 +1,6 @@
 # Light/Dark Mode Next.js Project
 
-This project is a simple demonstration of a Next.js application with a fully functional light/dark mode toggle. It uses Tailwind CSS v3 for styling and supports theme switching at runtime, with the user's preference saved in localStorage. The project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project is a simple demonstration of a Next.js application with a fully functional light/dark mode toggle. It uses Tailwind CSS v3 for styling and supports theme switching at runtime using react context, with the user's preference saved in localStorage. The project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Features
 
